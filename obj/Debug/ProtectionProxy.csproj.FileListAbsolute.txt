@@ -1,0 +1,9 @@
+C:\Users\Adrian\OneDrive\Desktop\Interfata\bin\Debug\ProtectionProxy.exe
+C:\Users\Adrian\OneDrive\Desktop\Interfata\bin\Debug\ProtectionProxy.pdb
+C:\Users\Adrian\OneDrive\Desktop\Interfata\obj\Debug\ProtectionProxy.csprojAssemblyReference.cache
+C:\Users\Adrian\OneDrive\Desktop\Interfata\obj\Debug\ProtectionProxy.MainForm.resources
+C:\Users\Adrian\OneDrive\Desktop\Interfata\obj\Debug\ProtectionProxy1.Properties.Resources.resources
+C:\Users\Adrian\OneDrive\Desktop\Interfata\obj\Debug\ProtectionProxy.csproj.GenerateResource.cache
+C:\Users\Adrian\OneDrive\Desktop\Interfata\obj\Debug\ProtectionProxy.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\OneDrive\Desktop\Interfata\obj\Debug\ProtectionProxy.exe
+C:\Users\Adrian\OneDrive\Desktop\Interfata\obj\Debug\ProtectionProxy.pdb
