@@ -1,19 +1,3 @@
-/**************************************************************************
- *                                                                        *
- *  File:        Cryptography.cs                                          *
- *  Website:     http://www.obviex.com/samples/Encryption.aspx            *
- *               Adaptation and added functionality by Florin Leon        *
- *               http://florinleon.byethost24.com/lab_ip.htm              *
- *  Description: Contains functions for encryption, decryption,           *
- *               and hashing.                                             *
- *                                                                        *
- *  This code and information is provided "as is" without warranty of     *
- *  any kind, either expressed or implied, including but not limited      *
- *  to the implied warranties of merchantability or fitness for a         *
- *  particular purpose. You are free to use this source code in your      *
- *  applications as long as the original copyright notice is included.    *
- *                                                                        *
- **************************************************************************/
 
 using System;
 using System.IO;
@@ -24,43 +8,7 @@ namespace ProtectionProxy
 {
     public class Cryptography
     {
-        /// <summary>
-        /// Encrypts specified plaintext using Rijndael symmetric key algorithm
-        /// and returns a base64-encoded result.
-        /// </summary>
-        /// <param name="plainText">
-        /// Plaintext value to be encrypted.
-        /// </param>
-        /// <param name="passPhrase">
-        /// Passphrase from which a pseudo-random password will be derived. The
-        /// derived password will be used to generate the encryption key.
-        /// Passphrase can be any string. In this example we assume that this
-        /// passphrase is an ASCII string.
-        /// </param>
-        /// <param name="saltValue">
-        /// Salt value used along with passphrase to generate password. Salt can
-        /// be any string. In this example we assume that salt is an ASCII string.
-        /// </param>
-        /// <param name="hashAlgorithm">
-        /// Hash algorithm used to generate password. Allowed values are: "MD5" and
-        /// "SHA1". SHA1 hashes are a bit slower, but more secure than MD5 hashes.
-        /// </param>
-        /// <param name="passwordIterations">
-        /// Number of iterations used to generate password. One or two iterations
-        /// should be enough.
-        /// </param>
-        /// <param name="initVector">
-        /// Initialization vector (or IV). This value is required to encrypt the
-        /// first block of plaintext data. For RijndaelManaged class IV must be
-        /// exactly 16 ASCII characters long.
-        /// </param>
-        /// <param name="keySize">
-        /// Size of encryption key in bits. Allowed values are: 128, 192, and 256.
-        /// Longer keys are more secure than shorter keys.
-        /// </param>
-        /// <returns>
-        /// Encrypted value formatted as a base64-encoded string.
-        /// </returns>
+
         public static string Encrypt(string text, string pass)
         {
             string plainText = text;
